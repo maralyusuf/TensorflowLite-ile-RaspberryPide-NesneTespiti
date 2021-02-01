@@ -26,10 +26,9 @@ Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun
 4. [Kameradan, Videodan Ve Görüntüden Nesne Tespiti Yapmak](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti#step-4-running-object-detection-on-image-video-or-pi-camera)
 
 
-## Step 1: Setting up the Raspberry Pi and Getting Updates
-Before we can get started, we must have access to the Raspberry Pi's Desktop Interface. This can be done with VNC Viewer or the standard Monitor and HDMI. I made a more detailed video which can be found below
+## Adım 1: Raspberry Pi İçin Gerekli Ayarla ve Güncellemeler
+Öncelikle Raspberry Pi'a erişiminizn olması gerekir Bunu VNC veya Putty ile yapabilirsiniz veya Windows Komut satırını Açıp ``` ssh [YourPi-Username]@[Your-raspi-ip] ```
 
-[![Link to my vid](https://github.com/armaanpriyadarshan/Object-Detection-on-Raspberry-Pi/blob/master/doc/Raspi%20vid.png)](https://www.youtube.com/watch?v=jVzMRlCNO3U)
 
 Once you have access to the Desktop Interface, either remote or physical, open up a terminal. Retrieve updates for the Raspberry Pi with
 
