@@ -17,7 +17,7 @@ Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun
   <img src="doc/tf vs tflite.png">
 </p>
 
-**It took over 3 minutes to load a TensorFlow model and less than a second to load TensorFlow Lite model. TensorFlow Lite loaded literally 5,693,400% faster(yes I did the math).**
+**Bir TensorFlow modelini yüklemek 3 dakikadan fazla ve TensorFlow Lite modelini yüklemek bir saniyeden kısa sürdü. TensorFlow Lite kelimenin tam anlamıyla% 5,693,400 daha hızlı yüklendi Bilmem Anlatabildim mi.**
 
 ## Table of Contents
 1. [Setting up the Raspberry Pi and Getting Updates](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/README.md#step-1-setting-up-the-raspberry-pi-and-getting-updates)
