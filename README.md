@@ -34,14 +34,14 @@ Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun
 ```
 
 
-Once you have access to the Desktop Interface, either remote or physical, open up a terminal. Retrieve updates for the Raspberry Pi with
+Raspberry Pi Bağlandıysanız Aşşağıdaki Komutları Kullanrak Sisteminizi Güncelleyin.
 
 ```
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
 
-Depending on how recently you setup or updated your Pi, this can be instantaneous or lengthy. After your Raspberry Pi is up-to-date, we should make sure our Camera is enabled. First to open up the System Interface, use
+Bu İşlem İnternet Hızın Ve Siteminizi En Son Ne Zaman Güncellediğinize Göre Vakit Alabilir.Güncelleme İşleminiz Bittiyse Şimdi Raspberry Pi konfigrasyon Ayarlarımızda Raspbrerry Pi Kameramızı Etkinleştirelim Aşşağıdaki Adımları Takip Edin. Yada Raspberry İconu > Tercihler > Raspberry Pi Configration > Interfaces > Camera = Enabled
 
 ```
 sudo raspi-config
