@@ -20,7 +20,7 @@ Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun
 **Bir TensorFlow modelini yüklemek 3 dakikadan fazla ve TensorFlow Lite modelini yüklemek bir saniyeden kısa sürdü. TensorFlow Lite kelimenin tam anlamıyla% 5,693,400 daha hızlı yüklendi Bilmem Anlatabildim mi.**
 
 ## İçerik
-1. [Raspberry Pi İçin Gerekli Ayarla ve Güncellemeler](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/README.md#step-1-setting-up-the-raspberry-pi-and-getting-updates)
+1. [Raspberry Pi İçin Gerekli Ayarla ve Güncellemeler](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti#step-1-setting-up-the-raspberry-pi-and-getting-updates)
 2. [Pyhton Sanal Ortamımızı Oluşturma](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/README.md#step-2-organizing-our-workspace-and-virtual-environment)
 3. [Gerekli Kütüphanelrin Yüklenmesi ](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti#step-3-installing-the-prerequisites)
 4. [Kameradan, Videodan Ve Görüntüden Nesne Tespiti Yapmak](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti/blob/main/README.md#step-4-running-object-detection-on-image-video-or-pi-camera)
