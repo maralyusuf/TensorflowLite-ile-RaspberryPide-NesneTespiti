@@ -41,27 +41,28 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 ```
 
-Bu İşlem İnternet Hızın Ve Siteminizi En Son Ne Zaman Güncellediğinize Göre Vakit Alabilir.Güncelleme İşleminiz Bittiyse Şimdi Raspberry Pi konfigrasyon Ayarlarımızda Raspbrerry Pi Kameramızı Etkinleştirelim Aşşağıdaki Adımları Takip Edin. Yada Raspberry İconu > Tercihler > Raspberry Pi Configration > Interfaces > Camera = Enabled
+Bu İşlem İnternet Hızın Ve Siteminizi En Son Ne Zaman Güncellediğinize Göre Vakit Alabilir.Güncelleme İşleminiz Bittiyse Şimdi Raspberry Pi konfigrasyon Ayarlarımızda Raspbrerry Pi Kameramızı Etkinleştirelim Aşşağıdaki Adımları Takip Edin. Yada Raspberry İconu > Tercihler > Raspberry Pi Configration > Interfaces > Camera = Enabled <br>
+Yada bu Bu adımları Takip Edin.
 
 ```
 sudo raspi-config
 ```
 
-Then navigate to Interfacing Options -> Camera and make sure it is enabled. Then hit Finish and reboot if necessary.
+Ardından İnterfaces tan >  kameraya girin ve Aktif Olduğundan Emin olun.Eğer isteniyorsa Finish e Bastıktan Sonra Yenden Başlatın.
 
 <p align="left">
   <img src="doc/Camera Interface.png">
 </p>
 
-## Step 2: Organizing our Workspace and Virtual Environment
+## Adım 2: Çalışma Alanımızı Ve  Python Sanal Ortamımızı Oluşturalım
 
-Then, your going to want to clone this repository with
+Şimdi Bu github Repomuzu Klonlamak İçin Aşşağıdaki Komutu Kullanın
 
 ```
 git clone https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi.git
 ```
 
-This name is a bit long so let's trim it down with
+Klasörümüzün İsmi Biraz Uzun O Yüzden Birazcık Kısalatalım ``` MV``` Komutumuz İle.Artık Klasörümüzün İsmi tensorflow
 
 ```
 mv TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi tensorflow
