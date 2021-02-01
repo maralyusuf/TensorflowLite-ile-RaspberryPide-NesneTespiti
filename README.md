@@ -20,10 +20,10 @@ Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun
 **Bir TensorFlow modelini yüklemek 3 dakikadan fazla ve TensorFlow Lite modelini yüklemek bir saniyeden kısa sürdü. TensorFlow Lite kelimenin tam anlamıyla% 5,693,400 daha hızlı yüklendi Bilmem Anlatabildim mi.**
 
 ## Table of Contents
-1. [Setting up the Raspberry Pi and Getting Updates](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/README.md#step-1-setting-up-the-raspberry-pi-and-getting-updates)
-2. [Organizing our Workspace and Virtual Environment](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/README.md#step-2-organizing-our-workspace-and-virtual-environment)
-3. [Installing the Prerequisites](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi#step-3-installing-the-prerequisites)
-4. [Running Object Detection on Image, Video, or Pi Camera](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/README.md#step-4-running-object-detection-on-image-video-or-pi-camera)
+1. [Raspberry Pi İçin Gerekli Ayarla ve Güncellemeler](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti/blob/main/README.md#step-1-setting-up-the-raspberry-pi-and-getting-updates)
+2. [Pyhton Sanal Ortamımızı Oluşturma](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti/blob/main/README.md#step-2-organizing-our-workspace-and-virtual-environment)
+3. [Gerekli Kütüphanelrin Yüklenmesi ](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti#step-3-installing-the-prerequisites)
+4. [Kameradan, Videodan Ve Görüntüden Nesne Tespiti Yapmak](https://github.com/maralyusuf/TesorflowLite-ile-RaspberryPide-NesneTespiti/blob/main/README.md#step-4-running-object-detection-on-image-video-or-pi-camera)
 
 ## Step 1: Setting up the Raspberry Pi and Getting Updates
 Before we can get started, we must have access to the Raspberry Pi's Desktop Interface. This can be done with VNC Viewer or the standard Monitor and HDMI. I made a more detailed video which can be found below
