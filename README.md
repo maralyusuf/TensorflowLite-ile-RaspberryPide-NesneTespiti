@@ -1,12 +1,12 @@
-# TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi
+# TensorFlow-2-Lite-Ile-Raspberry-Pi-Uzerinde-Nesne-Tespiti
 [![TensorFlow 2.2](https://img.shields.io/badge/TensorFlow-2.2-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.2.0)
-### Learn how to Convert and Run TensorFlow Lite Object Detection Models on the Raspberry Pi
+### Raspberry Pi de Nasıl Tensorflow Ile Nesne Tespiti Yapacağımızı Öğrenelim.
 <p align="center">
   <img src="doc/Screenshot 2020-11-14 144537.png">
 </p>
 
-## Introduction
-This repository is a written tutorial covering two topics. TensorFlow Lite conversion and running on the Raspberry Pi. This document contains instructions for running on the Raspberry Pi. If you want to convert a Custom TensorFlow 2 Object Detection Model, please refer to the [conversion guide](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/TFLite-Conversion.md). These instructions are likely to change often with time, so if you have questions feel free to raise an issue. ***This guide has last been tested and updated on 11/13/2020.***
+## Giriş
+Bu Eğitim belgesinde Nasıl Raspberry Pi de Nesne Tespiti yapacağımızı Öğrenicez. 
 
 
 
