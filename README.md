@@ -27,7 +27,11 @@ Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun
 
 
 ## Adım 1: Raspberry Pi İçin Gerekli Ayarla ve Güncellemeler
-Öncelikle Raspberry Pi'a erişiminizn olması gerekir Bunu VNC veya Putty ile yapabilirsiniz veya Windows Komut satırını Açıp ``` ssh [YourPi-Username]@[Your-raspi-ip] ```
+Öncelikle Raspberry Pi'a erişiminizn olması gerekir Bunu VNC veya Putty ile yapabilirsiniz veya Windows Komut satırını Açıp  ``` ssh [YourPi-Username]@[Your-raspi-ip] ``` Bu Şekilde Raspberry Pi' nize Bağlanabilirsiniz.
+Örnek Kullanım : 
+``` 
+   ssh pi@10.0.0.248 
+```
 
 
 Once you have access to the Desktop Interface, either remote or physical, open up a terminal. Retrieve updates for the Raspberry Pi with
