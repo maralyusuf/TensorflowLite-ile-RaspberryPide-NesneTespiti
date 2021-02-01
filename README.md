@@ -11,9 +11,8 @@ Bu Eğitim belgesinde Nasıl Raspberry Pi de Nesne Tespiti yapacağımızı Öğ
 
 
 ## Neden Tensorflow Lite Kullanmalıyız ?
-Normal Tensorflow'u Raspberyy Pi ve Android Cihazlarda Kullanılmak İçin Uygun değil. İşte Bu noktada Tensorflow Lite Yardımımıza Koşuyor.Kurulumu Daha Kolay Bir hale Geldi. Yalnızca Bu da değil Aynı Zamanda Performans Bakımındanda Çok Daha İyi Sonuçlar Üretiyor. Raspberry Pi Ve Diğer Mobil Cihazlarda Çalışacak Şekilde Optimize edilmiş.
+Normal Tensorflow'u Raspberyy Pi ve Android Cihazlarda Kullanılmak İçin Uygun değil. İşte Bu noktada Tensorflow Lite Yardımımıza Koşuyor.Kurulumu Daha Kolay Bir hale Geldi. Yalnızca Bu da değil Aynı Zamanda Performans Bakımındanda Çok Daha İyi Sonuçlar Üretiyor. Raspberry Pi Ve Diğer Mobil Cihazlarda Çalışacak Şekilde Optimize Edilmiştir.
 
-This guide is my 3rd in a series about the TensorFlow Object Detection API. Of my 2 previous guides, one of them is about TensorFlow Object Detection on the Raspberry Pi. If I already have a tutorial, why make another? TensorFlow Lite is a massive improvement from your standard TensorFlow installation. Not only is it so much easier to install and use, but the performance is significantly better. It's optimized to run on mobile and other edge devices such as the Raspberry Pi. The numbers speak for themselves!
 <p align="left">
   <img src="doc/tf vs tflite.png">
 </p>
