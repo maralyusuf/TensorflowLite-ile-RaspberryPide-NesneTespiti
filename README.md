@@ -11,7 +11,7 @@ Bu Eğitim belgesinde Nasıl Raspberry Pi de Nesne Tespiti yapacağımızı Öğ
 
 
 ## Neden Tensorflow Lite Kullanmalıyız ?
-Normal Tensorflow'u Raspberyy Pi ve Android Cihazlarda Kullanılmak İçin Uygun değil. İşte Bu noktada Tensorflow Lite Yardımımıza Koşuyor.Kurulumu Daha Kolay Bir hale Geldi. Yalnızca Bu da değil Aynı Zamanda Performans Bakımındanda Çok Daha İyi Sonuçlar Üretiyor. Raspberry Pi Ve Diğer Mobil Cihazlarda Çalışacak Şekilde Optimize Edilmiştir.
+Normal Tensorflow'u Raspberry Pi ve Android Cihazlarda Kullanılmak İçin Uygun değil. İşte Bu noktada Tensorflow Lite Yardımımıza Koşuyor.Kurulumu Daha Kolay Bir hale Geldi. Yalnızca Bu da değil Aynı Zamanda Performans Bakımındanda Çok Daha İyi Sonuçlar Üretiyor. Raspberry Pi Ve Diğer Mobil Cihazlarda Çalışacak Şekilde Optimize Edilmiştir.
 
 <p align="left">
   <img src="doc/tf vs tflite.png">
