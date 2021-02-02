@@ -193,7 +193,7 @@ optional arguments:
  ```
  python TFLite-PiCamera-od.py
  ```
- Eğer Kurulumları dOĞRU yapabildiyseniz Aşşğıdaki Gibi Nesnelriniz Tespit edilir.
+ Eğer Kurulumları Doğru yapabildiyseniz Aşşğıdaki Gibi Nesneleriniz Tespit edilir.
  <p align="left">
   <img src="https://lh3.googleusercontent.com/_FxUvwC5Fri2vvtz187V-O6HSnyh7aUejHFDgNdiW-Ohzcd33S7fF2aAF9tdov52byluIEiL9LJYBdOTTYIk=w1548-h887-rw">
 </p>
