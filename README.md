@@ -93,27 +93,27 @@ Sanal Ortamımızı Aşağıdaki Komutu Kullanarak Etkinleştirelim.
 source bin/activate
 ```
 
-**Not: Artık Terminalimizi Her Açtığımızda Bunu ortamı ETKİNLEŞTİRMEK için Şu komutu Kullanmalıyız ```source /home/pi/Desktop/tensorflow/bin/activate``` . Eğer bu Zahmetli geliyorsa Şöylede Bir şey Yapabiliriz, Terminelimizi Her açmaya çalıştığımızda root dizinimiz altındaki ~/.bashrc dosyası çalışır yani eğer Bu dosyanın en son satırına "source tensorflow/bin/activate" komutu eklersek Terminal Her Açıldığında Ortamımız Etkinleşir. Bunun İçin Bu Komutu  Çalıştırmanız Yeterlidir ```echo "source tensorflow/bin/activate" >> ~/.bashrc```. Çalışma Dizininizin Yanındaki Alanda Parantez İçinde tensorflow Yazıyorsa Sanal Ortamınız Aktiftir..**
+**Not: Artık Terminalimizi Her Açtığımızda Bunu ortamı Etkinleştirmek için Şu komutu Kullanmalıyız ```source /home/pi/Desktop/tensorflow/bin/activate``` . Eğer bu Zahmetli geliyorsa Şöylede Bir şey Yapabiliriz, Terminelimizi Her açmaya çalıştığımızda root dizinimiz altındaki ~/.bashrc dosyası çalışır yani eğer Bu dosyanın en son satırına "source tensorflow/bin/activate" komutu eklersek Terminal Her Açıldığında Ortamımız Etkinleşir. Bunun İçin Bu Komutu  Çalıştırmanız Yeterlidir ```echo "source tensorflow/bin/activate" >> ~/.bashrc```. Çalışma Dizininizin Yanındaki Alanda Parantez İçinde tensorflow Yazıyorsa Sanal Ortamınız Aktiftir..**
 
  ```ls``` Komutunu ```tensorflow``` Klasöründeyke  Çalıştırdığınızda Aşşagıdaki Gibi Çıktı Almanız Gerek.
 <p align="left">
   <img src="doc/directory.png">
 </p>
 
-## Step 3: Installing the Prerequisites
-This step should be relatively simple. I have compressed all the commands into one shellscript which you can run with
+## Addım 3: Gerekli Paket ve Kütüphanelrin Kurulması.
+Bu adım Fazlasıyla Kolay Çünkü Kurulum Komutlarını bir Bash Betiği Halide Yazdım Sadece Aşşağıdaki Komutu Çalıştırarak Bütün gerekli Paket ve Kütüphanelrei Kurmuş Olucaksınız.
 ```
 bash install-prerequisites.sh
 ```
-This might take a few minutes, but after everything has been installed you should get this message
+Bir Kaç Dakika Sonra Aşşğıdaki Uyarıyı Görüceksiniz.
 ```
 Prerequisites Installed Successfully
 ```
-Now, it's best to test our installation of the tflite_runtime module. To do this first type
+Şimdi tflite_runtime Kurulmuşmu Test Edelim. Önelikle Pyhton yazarak Pyhton3' müzü çalıştıralım.
 ```
 python
 ```
-From the Python terminal, enter these lines
+Ardından Terminale Şu satırları Yazarak Test Edin
 ```
 Python 3.7.3 (default, Jul 25 2020, 13:03:44)
 [GCC 8.3.0] on linux
@@ -121,11 +121,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import tflite_runtime as tf
 >>> print(tf.__version__)
 ```
-If everything went according to plan, you should get 
+Eğer Doğru bir Kurulum Yaptıysanız Bu Yazıyı Görüceksiniz. 
 ```
 2.5.0
 ```
-**Note: The link for downloading the tflite_runtime module is bound to change based on your Python version and platform/architecture. With time, newer versions will be also be released. I'll try my best to update this guide frequently, but the most recent instructions for the installation are located [here](https://www.tensorflow.org/lite/guide/python)**
+**Note: tflite_runtime platform yapıları ve farklılıkları itibari ile hata Alabilrisiniz Bu Durumda Aşşaağıdaki Bağlantıyı Kullanrak Platformunuza Uygun olanı Kurabilirsiniz [buraya](https://www.tensorflow.org/lite/guide/python)**
 
 ## Step 4: Running Object Detection on Image, Video, or Pi Camera
 Now we're finally ready to run object detection! In this repository, I've included a sample model that I converted as well as 3 object detection scripts utilizing OpenCV. If you want to convert a custom model or a pre-trained model, you can look at the [TensorFlow Lite Conversion Guide](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/TFLite-Conversion.md) that I wrote. A majority of the code is from [Edje Electronics' tutorial](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi) with a few small adjustments. 
