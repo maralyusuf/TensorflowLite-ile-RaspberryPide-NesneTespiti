@@ -59,43 +59,43 @@ Ardından İnterfaces tan >  kameraya girin ve Aktif Olduğundan Emin olun.Eğer
 Şimdi Bu github Repomuzu Klonlamak İçin Aşşağıdaki Komutu Kullanın
 
 ```
-git clone https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi.git
+git clone https://github.com/maralyusuf/TensorflowLite-ile-RaspberryPide-NesneTespiti.git
 ```
 
 Klasörümüzün İsmi Biraz Uzun O Yüzden Birazcık Kısalatalım ``` MV``` Komutumuz İle.Artık Klasörümüzün İsmi tensorflow
 
 ```
-mv TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi tensorflow
+mv TensorflowLite-ile-RaspberryPide-NesneTespiti tensorflow
 ```
 
-We are now going to create a Virtual Environment to avoid version conflicts with previously installed packages on the Raspberry Pi. First, let's install virtual env with
+Raspberry Pi de Önceden Kurulmuş Paketlerler Sürüm Çakışmasını Önlemek İçin Sanal Ortamımızı
+Oluşturalım. Bunu için öncelik virtualenv Paketimizi Kuralım.
 
 ```
 sudo pip3 install virtualenv
 ```
 
-Now, we can create our ```tensorflow``` virtual environment with
+Şimdi  ```tensorflow``` Adlı  Sanal Ortamımızı Oluşturabiliriz. 
 
 ```
 python3 -m venv tensorflow
 ```
 
-There should now be a ```bin``` folder inside of our ```tensorflow``` directory. So let's change directories with
+```tensorflow``` Kalsörümüzün İçinde ```bin``` Klasörümüz Oluştu. şimdi  ```tensorflow``` Klasörüne Geçelim.
 
 ```
 cd tensorflow
 ```
 
-We can then activate our Virtual Envvironment with
+Sanal Ortamımızı Aşağıdaki Komutu Kullanarak Etkinleştirelim.
 
 ```
 source bin/activate
 ```
 
-**Note: Now that we have a virtual environment, everytime you start a new terminal, you will no longer be in the virtual environment. You can reactivate it manually or issue ```echo "source tensorflow/bin/activate" >> ~/.bashrc```. This basically activates our Virtual Environment as soon as we open a new terminal. You can tell if the Virtual Environment is active by the name showing up in parenthesis next to the working directory.**
+**Not: Artık Terminalimizi Her Açtığımızda Bunu ortamı ETKİNLEŞTİRMEK için Şu komutu Kullanmalıyız ```source /home/pi/Desktop/tensorflow/bin/activate``` . Eğer bu Zahmetli geliyorsa Şöylede Bir şey Yapabiliriz, Terminelimizi Her açmaya çalıştığımızda root dizinimiz altındaki ~/.bashrc dosyası çalışır yani eğer Bu dosyanın en son satırına "source tensorflow/bin/activate" komutu eklersek Terminal Her Açıldığında Ortamımız Etkinleşir. Bunun İçin Bu Komutu  Çalıştırmanız Yeterlidir ```echo "source tensorflow/bin/activate" >> ~/.bashrc```. Çalışma Dizininizin Yanındaki Alanda Parantez İçinde tensorflow Yazıyorsa Sanal Ortamınız Aktiftir..**
 
-When you issue ```ls```, your ```tensorflow``` directory should now look something like this
-
+ ```ls``` Komutunu ```tensorflow``` Klasöründeyke  Çalıştırdığınızda Aşşagıdaki Gibi Çıktı Almanız Gerek.
 <p align="left">
   <img src="doc/directory.png">
 </p>
