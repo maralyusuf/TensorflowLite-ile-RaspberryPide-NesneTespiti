@@ -100,7 +100,7 @@ source bin/activate
   <img src="doc/directory.png">
 </p>
 
-## Addım 3: Gerekli Paket ve Kütüphanelrin Kurulması.
+## Addım 3: Gerekli Paket ve Kütüphanelerin Kurulması.
 Bu adım Fazlasıyla Kolay Çünkü Kurulum Komutlarını bir Bash Betiği Halide Yazdım Sadece Aşşağıdaki Komutu Çalıştırarak Bütün gerekli Paket ve Kütüphanelrei Kurmuş Olucaksınız.
 ```
 bash install-prerequisites.sh
@@ -125,11 +125,12 @@ Eğer Doğru bir Kurulum Yaptıysanız Bu Yazıyı Görüceksiniz.
 ```
 2.5.0
 ```
-**Note: tflite_runtime platform yapıları ve farklılıkları itibari ile hata Alabilrisiniz Bu Durumda Aşşaağıdaki Bağlantıyı Kullanrak Platformunuza Uygun olanı Kurabilirsiniz [buraya](https://www.tensorflow.org/lite/guide/python)**
+**Note: tflite_runtime platform yapıları ve farklılıkları itibari ile hata Alabilrisiniz Bu Durumda Aşşaağıdaki Bağlantıyı Kullanrak Platformunuza Uygun olanı Kurabilirsiniz [buraya tıklayın](https://www.tensorflow.org/lite/guide/python)**
 
-## Step 4: Running Object Detection on Image, Video, or Pi Camera
-Now we're finally ready to run object detection! In this repository, I've included a sample model that I converted as well as 3 object detection scripts utilizing OpenCV. If you want to convert a custom model or a pre-trained model, you can look at the [TensorFlow Lite Conversion Guide](https://github.com/armaanpriyadarshan/TensorFlow-2-Lite-Object-Detection-on-the-Raspberry-Pi/blob/main/TFLite-Conversion.md) that I wrote. A majority of the code is from [Edje Electronics' tutorial](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi) with a few small adjustments. 
-- ```TFLite-PiCamera-od.py```: This program uses the Pi Camera to perform object detection. It also counts and displays the number of objects detected in the frame. The usage is
+## Adım 4: Kameradan,videodan veya Resimde Nesne Tepiti Yapmak
+Artık Raspberry Pi mizde Nesne Tespiti Yapmaya Hazırız! Bu Repoda , Bir TensorflowLite Modelinin Yanı sıra Videoda,kamerada ve Resimden Nesne Tespiti için 3 faarklı Pyhton dosyası Bulunmaktadır. 
+
+- ```TFLite-PiCamera-od.py```: Bu program Nesne Tespiti Yapmak İçin Kameranızı Kullanır Opencv ye Hakimseniz Hangi Kamerdana Yapması Gerektiğini Koddan Seçebilirisiniz. Bu dosya Nesneleri Çerçeve İçine Alır Ayrıca Kaç Nesne OLduğunuda Size Söyler.
 ```
 usage: TFLite-PiCamera-od.py [-h] [--model MODEL] [--labels LABELS]
                              [--threshold THRESHOLD] [--resolution RESOLUTION]
@@ -147,7 +148,7 @@ optional arguments:
                         Desired webcam resolution in WxH. If the webcam does
                         not support the resolution entered, errors may occur.
 ```
-- ```TFLite-Image-od.py```: This program takes a single image as input. I haven't managed to get it to run inference on a directory yet. If you do, feel free to share it as it might help others. This script also counts the number of detections. The usage is
+- ```TFLite-Image-od.py```: Bu Program ise Bir resim Üzerinde Nesne Tepiti ve Nesne Sayısını Gösterir.
 ```
 usage: TFLite-Image-od.py [-h] [--model MODEL] [--labels LABELS]
                           [--image IMAGE] [--threshold THRESHOLD]
@@ -167,7 +168,7 @@ optional arguments:
                         Desired webcam resolution in WxH. If the webcam does
                         not support the resolution entered, errors may occur.
  ```
-- ```TFLite-Video-od.py```: This program is similar to the last two however it takes a video as input. The usage is
+- ```TFLite-Video-od.py```: Bu programda Diğereleri Gibi Çalışır Fakat Girdi Olarak Bir video Alır.
 ```
 usage: TFLite-Video-od.py [-h] [--model MODEL] [--labels LABELS]
                           [--video VIDEO] [--threshold THRESHOLD]
@@ -188,13 +189,13 @@ optional arguments:
                         not support the resolution entered, errors may occur.
  ```
  
- Now to finally test it out, run
+ Bu Komutu Kullanrak Kameranız Üzerinde Nesne Tespitnin Yapablirsiniz.
  ```
  python TFLite-PiCamera-od.py
  ```
  If everything works you should get something like this
  <p align="left">
-  <img src="doc/2020-11-15-230504_1920x1080_scrot.png">
+  <img src="https://drive.google.com/file/d/1HmJ84JTVngYOPjl4bKr90Fw6kH8ud0Jw/view?usp=sharing">
 </p>
 
 Congratulations! This means we're successfully performing real-time object detection on the Raspberry Pi! Now that you've tried out the Pi Camera, why not one of the other scripts? Over the next weeks I'll continue to add on to this repo and tinker with the programs to make them better than ever! If you find something cool, feel free to share it, as others can also learn! And if you have any errors, just raise an issue and I'll be happy to take a look at it. Great work, and until next time, bye! 
