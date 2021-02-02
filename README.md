@@ -195,7 +195,7 @@ optional arguments:
  ```
  If everything works you should get something like this
  <p align="left">
-  <img src="https://drive.google.com/file/d/1HmJ84JTVngYOPjl4bKr90Fw6kH8ud0Jw/view?usp=sharing">
+  <img src="https://lh3.googleusercontent.com/_FxUvwC5Fri2vvtz187V-O6HSnyh7aUejHFDgNdiW-Ohzcd33S7fF2aAF9tdov52byluIEiL9LJYBdOTTYIk=w1548-h887-rw">
 </p>
 
 Congratulations! This means we're successfully performing real-time object detection on the Raspberry Pi! Now that you've tried out the Pi Camera, why not one of the other scripts? Over the next weeks I'll continue to add on to this repo and tinker with the programs to make them better than ever! If you find something cool, feel free to share it, as others can also learn! And if you have any errors, just raise an issue and I'll be happy to take a look at it. Great work, and until next time, bye! 
