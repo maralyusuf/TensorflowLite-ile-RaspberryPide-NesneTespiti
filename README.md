@@ -6,7 +6,7 @@
 </p>
 
 ## Giriş
-Bu Eğitim belgesinde Nasıl Raspberry Pi de Nesne Tespiti yapacağımızı Öğrenicez. 
+Bu Eğitimimizde Raspberry Pi de Nasıl Nesne Tespiti Yapacağımızı Öğrenicez. 
 
 
 
