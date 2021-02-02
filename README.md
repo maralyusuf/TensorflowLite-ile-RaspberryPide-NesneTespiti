@@ -198,4 +198,3 @@ optional arguments:
   <img src="https://lh3.googleusercontent.com/_FxUvwC5Fri2vvtz187V-O6HSnyh7aUejHFDgNdiW-Ohzcd33S7fF2aAF9tdov52byluIEiL9LJYBdOTTYIk=w1548-h887-rw">
 </p>
 
-<small>armaanpriyadarshan Alıntıdır Ve tükçeye Çevirilmiştir.</small>
